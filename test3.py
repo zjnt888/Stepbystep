@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-
+'''
+到逐浪网爬取一页小说
+'''
 res = requests.get(url='http://book.zhulang.com/522150/71888.html')
 res.encoding = 'utf-8'
 html = res.text

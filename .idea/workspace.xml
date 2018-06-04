@@ -10,7 +10,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="test4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,7 +86,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -79,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test3">
+  <component name="RunManager" selected="Python.test4">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,8 +292,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test3" />
         <item itemvalue="Python.test4" />
+        <item itemvalue="Python.test3" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.test" />
@@ -298,12 +325,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14806548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14806548" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32947975" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47247022" side_tool="true" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4732143" side_tool="true" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49925596" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5275298" weight="0.27272728" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52678573" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49627978" weight="0.1785124" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -650,22 +677,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="84">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -674,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="63">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

@@ -22,7 +22,7 @@ author_info = soup.find_all('div', class_='meta-block')
 将包含在<p></p>标签下的数字存入列表变量num中
 '''
 num = []
-num = [int(info.p.string) for info in author_info]
+num = [int(info.p.get_text()) for info in author_info]
 # for info in author_info:
 #    num = info.p.string
 #    print(int(num))
