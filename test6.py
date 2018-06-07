@@ -1,36 +1,75 @@
 import requests
 from bs4 import BeautifulSoup
+import re
+
 '''
-到逐浪网爬取小说，然后存到一个文件。
+到全书爬取小说，然后存到一个文件。
 '''
+
+'''
+根据网址取出文章一个章节
+'''
+
+
 def get_doc(url):
     res = requests.get(url)
-    res.encoding = 'utf-8'
+    res.encoding = 'gbk'
     html = res.text
-
     soup = BeautifulSoup(html, 'lxml')
     '''
-    在(class_="read-top")中  文章名在<p></p>标签下，章节名在<span>标签下
-    用beautifulsoup将其取出，分别打印
+    标题在(class_="main b-detail")中 
+    '''
+    title = soup.find(class_="main b-detail").find('strong', class_="l jieqi_title")
 
     '''
-    title = soup.find(class_="read-top").find('h2')
-    print('书名  ',title.a.get_text())
-    print('章节  ',title.span.get_text())
+    文章包含在(class_="mainContenr", id="content")中
+    用beautifulsoup将其取出，存到sting变量docs
     '''
-    文章包含在(class_="read-content", id="read-content")中的<p></p>标签下
-    用beautifulsoup将其取出，存到列表变量docs
+    docs = soup.find(class_="mainContenr", id="content")
+    docs = docs.get_text()
     '''
-    docs = soup.find(class_="read-content", id="read-content").find_all('p')
+    去除没用的前style5()后style6()
     '''
-    将文章段使用for语句一一取出打印，用if语句将最后含有打击盗版的一段不打印。
-    “strip=True”参数去除前后空白
+    return (title.get_text() + '\n--------------------\n\n' + docs.strip('style5();').strip('style6();')
+            + '\n-----------------------------\n')
+
+
+'''
+根据目录页，取出每一章的链接表
+'''
+
+
+def get_urllist(url):
+    res = requests.get(url)
+    res.encoding = 'gbk'
+    html = res.text
+    soup = BeautifulSoup(html, 'lxml')
+    ulist = []
+
     '''
-    for doc in docs:
-        if '打击盗版' not in doc.get_text():
-            print(doc.get_text(strip=True))
-            print('------------------')
+    查找div标签下的li标签，li标签下的a标签
+    <a href="http://www.quanshuwang.com/book/9/9055/9674263.html" title="国庆贺文，非盗墓笔记，免费奉送。，共6035字">国庆贺文，非盗墓笔记，免费奉送。</a>
+    将链接全部存到ulist这个列表变量中
+    '''
+    links = soup.find('div', class_='clearfix dirconone').find_all('a')
+    for link in links:
+        ulist.append(link['href'])
+    return ulist
+
 
 if __name__ == "__main__":
-    url='http://book.zhulang.com/382194/206115.html'
-    get_doc(url)
+    #url为目录页地址
+    url = 'http://www.quanshuwang.com/book/9/9055'
+    #取出目录页的地址列表，存入urls
+    urls = get_urllist(url)
+    #打开一个文件盗墓笔记.txt
+    files = open('盗墓笔记.txt', 'w')
+    '''
+    使用get_doc函数将文章一个一个取出
+    '''
+    for url in urls:
+        print("下载...", url)
+        #gbk编码不认识\xa0，使用回车\n替换
+        docs = u'\n'.join(get_doc(url).split())
+        files.write(docs)
+

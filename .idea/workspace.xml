@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8190db9b-2a03-42c8-9a06-7199fe0515ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
+    <list default="true" id="8190db9b-2a03-42c8-9a06-7199fe0515ec" name="Default" comment="打印去除了空白">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,25 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test5.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="test6.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="e#2#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +46,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
+    <option name="x" value="1" />
+    <option name="y" value="43" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -74,7 +59,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +70,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528117276895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="打印去除了空白">
+      <created>1528118456809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528118456809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -349,18 +341,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14806548" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32947975" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47619048" side_tool="true" visible="true" weight="0.446281" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4799107" side_tool="true" visible="true" weight="0.34380165" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49925596" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.3289256" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49925596" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52380955" visible="true" weight="0.446281" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52008927" visible="true" weight="0.34380165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49627978" weight="0.1785124" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4955357" weight="0.1785124" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,7 +360,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -740,36 +731,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a" />
     <entry file="file://$PROJECT_DIR$/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="103" />
+        <state relative-caret-position="210">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a" />
     <entry file="file://$PROJECT_DIR$/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="441">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="72" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test5.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/盗墓笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
-            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
